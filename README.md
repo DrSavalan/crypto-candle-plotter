@@ -4,7 +4,7 @@ This project fetches historical OHLC data for any cryptocurrency from Binance an
 
 ## 🔧 How to Use
 
-1. Clone the repo and enter the directory.
+1. Clone the repo and enter the directory; and install the requirements named in 'requirements.txt'.
 2. Set your Binance API credentials in `config.py`.
 3. Run the script:
 
