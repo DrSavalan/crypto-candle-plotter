@@ -3,7 +3,7 @@
 import datetime
 import pandas as pd
 from binance.client import Client
-from config import my_API_Key, my_API_Secret
+from .config import my_API_Key, my_API_Secret
 
 def give(shareName, timeframe, seconds, backsec):
     symbol = shareName + 'USDT'
