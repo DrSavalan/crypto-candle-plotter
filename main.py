@@ -1,7 +1,6 @@
 # main.py
 
-from fetcher import create_dataframe
-from plotter import candlePlot
+from crypto_plotter import create_dataframe, candlePlot
 
 def main():
     share = 'BTC'            # or 'ETH', 'SOL', etc.
